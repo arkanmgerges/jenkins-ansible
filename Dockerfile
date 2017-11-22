@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
 	python-dev \
 	python-pip \
 	openssh-client \
+	rsync \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip and install docker-py
